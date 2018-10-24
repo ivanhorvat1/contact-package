@@ -11,8 +11,10 @@
         }
     },
     "extra": {
-        "providers": [
-            "Ivanhorvat\\Contact\\ContactServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "Ivanhorvat\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
