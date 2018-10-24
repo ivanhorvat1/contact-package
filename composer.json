@@ -9,5 +9,10 @@
         "psr-4": {
             "Ivanhorvat\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "providers": [
+            "Ivanhorvat\\Contact\\ContactServiceProvider"
+        ]
     }
 }
